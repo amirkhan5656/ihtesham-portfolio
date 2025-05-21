@@ -1,15 +1,10 @@
 "use client";
 
-import { HeroHighlight } from "@/components/ui/hero-highlight";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
-import { BackgroundGradient } from "@/components/ui/background-gradient";
+
 import { HeroSection } from "@/components/HeroSection";
 import { MarqueeDemo } from "@/components/Marqee";
 import { BlurFade } from "@/components/magicui/blur-fade";
-import BlurFadeText from "@/components/magicui/blur-fade-text";
+// import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { DATA } from "@/data/resume";
 import { ProjectCard } from "@/components/project-card";
 import { ContactForm } from "@/components/ContactForm";
