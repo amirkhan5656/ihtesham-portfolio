@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, Sun, Moon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { HoverBorderGradient } from "./ui/hover-border-gradient"
+import {ShimmerButton} from "@/components/magicui/shimmer-button"
 import { useTheme } from "next-themes"
 import { cn } from "@/lib/utils"
 
@@ -95,9 +95,9 @@ export function Navbar() {
                 <span className="sr-only">Toggle theme</span>
               </Button>
             )}
-            <HoverBorderGradient>
-                Hire Me
-            </HoverBorderGradient>
+            <ShimmerButton>
+              Hire Me
+            </ShimmerButton>
           </nav>
 
           {/* Mobile Navigation Toggle */}
@@ -139,9 +139,9 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <HoverBorderGradient >
-                Hire Me
-            </HoverBorderGradient>
+            <ShimmerButton>
+              Hire Me
+            </ShimmerButton>
           </nav>
         </div>
       )}
