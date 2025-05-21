@@ -12,6 +12,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { BorderBeam } from "./magicui/border-beam";
+import { Textarea } from "./ui/textarea";
 
 export function ContactForm() {
   return (
@@ -44,9 +45,8 @@ export function ContactForm() {
 
             <div className="flex flex-col space-y-1.5">
               <Label htmlFor="description">Description</Label>
-              <Input
+              <Textarea
                 id="description"
-                type="text"
                 placeholder="Enter your Description"
               />
             </div>
@@ -60,68 +60,3 @@ export function ContactForm() {
     </Card>
   );
 }
-
-
-
-
-// import { Button } from "@/components/ui/button";
-// import {
-//   Card,
-//   CardContent,
-//   CardDescription,
-//   CardFooter,
-//   CardHeader,
-//   CardTitle,
-// } from "@/components/ui/card";
-// import { Input } from "@/components/ui/input";
-// import { Label } from "@/components/ui/label";
-// import { Textarea } from "@/components/ui/textarea"; // Make sure this component exists or create one
-// import { BorderBeam } from "./magicui/border-beam";
-
-// export function ContactForm() {
-//   return (
-//     <Card className="relative w-full max-w-xl overflow-hidden">
-//       <CardHeader>
-//         <CardTitle>Contact Me</CardTitle>
-//         <CardDescription>
-//           Feel free to reach out by filling the form below.
-//         </CardDescription>
-//       </CardHeader>
-//       <CardContent>
-//         <form className="grid w-full items-center gap-4">
-//           {/* Name */}
-//           <div className="flex flex-col space-y-1.5">
-//             <Label htmlFor="name">Name</Label>
-//             <Input id="name" type="text" placeholder="Enter your name" />
-//           </div>
-
-//           {/* Email */}
-//           <div className="flex flex-col space-y-1.5">
-//             <Label htmlFor="email">Email</Label>
-//             <Input id="email" type="email" placeholder="Enter your email" />
-//           </div>
-
-//           {/* Subject */}
-//           <div className="flex flex-col space-y-1.5">
-//             <Label htmlFor="subject">Subject</Label>
-//             <Input id="subject" type="text" placeholder="Subject of your message" />
-//           </div>
-
-//           {/* Description */}
-//           <div className="flex flex-col space-y-1.5">
-//             <Label htmlFor="description">Description</Label>
-//             <Textarea
-//               id="description"
-//               placeholder="Type your message here..."
-//               rows={5}
-//             />
-//           </div>
-//         </form>
-//       </CardContent>
-//       <CardFooter className="justify-end">
-//         <Button type="submit">Submit</Button>
-//       </CardFooter>
-//       <BorderBeam duration={8} size={100} />
-//     </Card>
-//   );
-// }

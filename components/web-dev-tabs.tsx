@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { Card } from "./ui/card";
 
 export default function WebDevTabs() {
     const cards = [
