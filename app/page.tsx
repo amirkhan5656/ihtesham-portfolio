@@ -40,7 +40,7 @@ export default function Home() {
               <span className="font-semibold text-primary">
                 outdated websites
               </span>{" "}
-              into fast, modern experiences that truly perform. I'm also an{" "}
+              into fast, modern experiences that truly perform. I&apos;m also an{" "}
               <span className="font-semibold text-primary">
                 environmentalist
               </span>{" "}
@@ -110,7 +110,7 @@ export default function Home() {
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Need something different? <br />
-                  Don't mind sharing
+                  Don&apos;t mind sharing
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Let us know if we are your fit, for your awesome exceptional work!
